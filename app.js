@@ -73,5 +73,5 @@ app.post("/compose", (req, res) => {
 
 const port = process.env.PORT || 3000
 app.listen(port, function() {
-    console.log("Server started on Port 3000");
+    console.log(`Server started on port ${port}`);
 });
